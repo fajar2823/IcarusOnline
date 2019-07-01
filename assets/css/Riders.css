@@ -1,0 +1,27 @@
+.kotak{
+	width: 101px;
+	height: 176px;
+}
+button{
+
+}
+.col-md-4{
+	background-image: url("/Websitenya/assets/img/stats.jpg");
+}
+.progress{
+	margin-bottom: 35px;
+}
+h5{
+	margin-bottom: 25px;
+	color: white;
+}
+.bgmain{
+	background-image: url(../img/ss1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main{
+	color: white;
+}

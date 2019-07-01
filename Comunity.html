@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html ng-app ="hide" ng-controller="hideController">
+<head>
+	<title>Community - Icarus Online</title>
+	<link rel="stylesheet" type="text/css" href="\Websitenya\assets\css\Community.css">
+	<link rel="stylesheet" type="text/css" href="\Websitenya\assets\css\style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script type="text/javascript" src="\Websitenya\assets\js\Comunity.js"></script>
+	<script type="text/javascript" src="\Websitenya\assets\js\angular-1.7.8\angular.min.js"></script>
+	
+</head>
+<body >
+<header>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ed1c24;" id="mainNav">
+	    	<div class="container">
+		    <a class="navbar-brand" href="../Websitenya/index.html">
+		    	<img src="\Websitenya\assets\img\626018.png" width="100" height="35" alt="">
+		  	</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    <ul class="navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link text-white" href="../Websitenya/index.html">HOME <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          GAME
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="../Websitenya/thegame.html">THE GAME</a>
+		          <a class="dropdown-item" href="../Websitenya/TherRiders.html">THE RIDERS</a>
+		          <a class="dropdown-item" href="../Websitenya/News.html">NEWS</a>
+		          <a class="dropdown-item" href="../Websitenya/gameupdated.html">UPDATES</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="../Websitenya/Media.html">MEDIA</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="../Websitenya/Comunity.html">COMMUNITY</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="../Websitenya/sprt.html">SUPPORT</a>
+		      </li>
+		    </ul>
+		  </div>
+		  </div>
+		</nav>
+	</header>
+<main role="main" class="bgmain" ng-view>
+
+	<div class="container bgcontainer">
+		<div class="row">
+		<div class="col-md-12">COMMUNITY</div>
+	</div>
+		<hr class="marginbtm">
+		<div class="row">
+		<div class="col-md-5 kategori">Kategori</div>
+		<div class="col-md-3">Diskusi</div>
+		<div class="col-md-3">Komentar</div>
+	</div>
+		<hr class="margintop">
+		<div class="row">
+		<div class="col-md-5">DILUAR TOPIK DISKUSI <p><small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3 paragraf">124</div>
+		<div class="col-md-3 paragraf">331</div>
+	</div>	
+		<hr>
+		<div class="row">
+		<div class="col-md-5">MEDIA PENGEMAR <p><small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3 paragraf">321</div>
+		<div class="col-md-3 paragraf">879</div>
+	</div>	
+		<hr>
+				<div class="row">
+		<div class="col-md-5">KATA-KATA KASAR <p><small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3 paragraf">400</div>
+		<div class="col-md-3 paragraf">243</div>
+	</div>	
+		<hr marginbtm1>
+		<div class="row">
+		<div class="col-md-5">PASAR/MARKETPLACE <p>	<small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3">Diskusi</div>
+		<div class="col-md-3">Komentar</div>
+	</div>
+		<hr>
+		<div class="row">
+		<div class="col-md-5">SERVER KARASHA MARKETPLACE <p>	<small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3 paragraf">124</div>
+		<div class="col-md-3 paragraf">331</div>
+	</div>	
+		<hr>
+		<div class="row">
+		<div class="col-md-5">SERVER ZELNARIS MARKETPLACE <p>	<small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3 paragraf">124</div>
+		<div class="col-md-3 paragraf">331</div>
+	</div>	
+		<hr>
+		<center><input class="btn btn-primary btn-lg" type="button" ng-hide="tombol" value="Lihat lebih lanjut" ng-click="ShowHide()"/></center>
+		<div ng-show="isVisible">
+		<div class="row">
+		<div class="col-md-5">HELP AND SUPPORT <p>	<small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3">Diskusi</div>
+		<div class="col-md-3">Komentar</div>
+	</div>
+		<hr>
+		
+		<div class="row">
+		<div class="col-md-5">PELAPORAN BUG <p>	<small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3 paragraf">124</div>
+		<div class="col-md-3 paragraf">331</div>
+	</div>	
+	<hr>	
+	<div class="row">
+		<div class="col-md-5">TECH SUPPORT <p>	<small class="text-muted">	Diskusi diluar topik game</small></p></div>
+		<div class="col-md-3 paragraf">124</div>
+		<div class="col-md-3 paragraf">331</div>
+	</div>	
+	<hr>
+		</div>
+	</div>
+
+
+	</div>
+<footer class="footer-basic-centered">
+
+			<p class="footer-company-motto">Your Account | Terms of service | Privacy Policy</p>
+
+			<p class="footer-links">
+				<a href="#">GAME</a>
+				·
+				<a href="#">MEDIA</a>
+				·
+				<a href="#">SUPPORT</a>
+				·
+				<a href="#">COMMUNITY</a>
+				
+			</p>
+
+			<p class="footer-company-name">&copy; 2019 Nexon Indonesia, Inc. Game &copy; 2014-2019 WeMade Entertainment Co. Ltd All rights reserved.</p>
+
+		</footer>
+</main>
+<script type="text/javascript">
+	var hide = angular.module('hide',[])
+	hide.controller('hideController', function ($scope) {
+		$scope.isVisible = false;
+		$scope.ShowHide = function () {
+			$scope.isVisible = $scope.isVisible = true;
+			$scope.tombol = true;
+		}
+	});
+	twttr.widgets.createShareButton(
+  "https://dev.twitter.com/web/tweet-button",
+  document.getElementById("tweet-container"),
+  {
+    size: "large",
+    text: "custom share text",
+    hashtags: "example,demo",
+    via: "twitterdev",
+    related: "twitterapi,twitter"
+  }
+);
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

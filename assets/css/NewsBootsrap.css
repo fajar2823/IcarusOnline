@@ -1,0 +1,53 @@
+.bgmain{
+	background-image: url(../img/bg_page_news.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.title_news{
+    width: auto;
+    height: 105px;
+    margin:0 40% 0 40% ;
+}
+.right{
+  margin-top: 1%;
+  height: 0;
+  border-right: 50px solid #ED1C24;
+  border-bottom: 50px solid transparent;
+  position: absolute;
+  
+}
+.left{
+ margin-top: 1%;
+  height: 0;
+  border-bottom: 50px solid #ED1C24;
+  border-right: 50px solid transparent;
+  position: absolute;
+
+}
+#ab{
+  position: relative;
+  right: 0.1rem;
+  margin-left: 50px;
+  top: 14px;
+}
+
+hr{
+	border:8px solid #FFFFFF;
+}
+.belt{
+	position: relative;
+	left: 90%;
+	font-size: 1.1rem;
+	padding :5px 5px 5px 5px;
+}
+main .container{
+	padding-top: 55px;
+}
+.card-body{
+	padding-top: 0;
+}
+.card{
+	background-color: transparent;
+}

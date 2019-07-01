@@ -1,0 +1,102 @@
+note: silahkan dicari bg di folder-folder yang ada
+      untuk item-item silahkan dicari di file item tambahan
+      contoh layout ada di folder 12_icarus
+
+--layout home--
+
+slide 1
+kode warna header: #ed1c24
+kode warna text header: #ffffff
+FONT header: Footlight MT Light 30px
+Font available: BLACK CAPS 48px
+font now: Bell MT 48px BOLD
+font download: Bell MT 30px BOLD
+
+slide 2
+font featured: Bell MT 36px BOLD
+kode warna font featured: #0d132c
+kode warna selain featured: #ffffff
+kode warna kotak: #0d132c
+
+	kotak 1
+	> kotak update: #f26522
+	> font kotak 1 update: Bell MT 14px BOLD
+	> font kotak 1 judul: Bell MT 30px BOLD
+	> font kotak 1 text: Cambria Math 18px
+
+	kotak 2
+	> kotak events: #39b54a
+	> font kotak 1 update: Bell MT 14px BOLD
+	> font kotak 1 judul: Bell MT 30px BOLD
+	> font kotak 1 text: Cambria Math 18px
+
+	kotak 3
+	> kotak news: #a186be
+	> font kotak 1 update: Bell MT 14px BOLD
+	> font kotak 1 juful: Bell MT 30px BOLD
+	> font kotak 1 text: Cambria Math 18px
+
+kotak footer
+kode warna: #959595
+kode warna font footer: #596474 
+font copyright: Bell MT 18px BOLD
+
+--layout game--
+kode warna font: #ffffff
+ kode warna background: #0d132c
+font text: Bell MT 30px regular
+
+kotak footer
+kode warna: #959595
+kode warna font footer: #596474
+font copyright: Bell MT 18px BOLD
+
+--layout riders--
+kode warna font: #ffffff
+font nama rider: Bell MT 24px BOLD
+font deskripsi rider: Bell MT 16px BOLD
+font deksripsi bar status: Bell MT 24px BOLD
+kode warna status bar: gradient dari #f8a734 dan #ed1c24
+
+--layout news--
+font news: Bell MT 36px BOLD
+font judul news: Cambria Math 36px
+font text informasi: Cambria Math 24px
+font read more: Cambria Math 24px
+
+--layout community--
+kode warna font: #ffffff 
+kode warna kotak community: #0d132c opacity 74%
+font community: Bell MT 36px BOLD
+font categories, discussions, dan comments: Cambria Math 18px
+font judul informasi: Bell MT 28px BOLD
+font informasi: Cambria Math 18px
+font jumlah komen dan diskusi: Cambria Math 18px
+
+--layout media--
+kode warna font: #0d132c
+font videos: Bell MT 36px BOLD
+font screenshot: Bell MT 36px BOLD
+
+--layout social stream--
+kode warna font: #0d132c
+font social stream: Bell MT 36px BOLD
+font judul stream: Cambria Math 30px
+
+--layout support--
+font header:  Bell MT 36px BOLD
+kode warna font header: #0d132c
+font dalam kotak: Cambria Math 30px
+kode warna font dalam kotak: #ffffff
+kode warna kotak: #0d132c
+
+--layout game update--
+font game update: Bell MT 36px BOLD
+kode warna font game update: #0d132c
+kode warna kotak update: #0d132c
+font judul update: Bell MT 38px BOLD
+font informasi update: Cambria Math 30px
+kode warna font update: #ffffff
+font see more: Bell MT 30px BOLD
+
+

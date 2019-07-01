@@ -1,0 +1,44 @@
+.bgmain{
+	background-image: url(../img/bg_pageNews.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main .container{
+	background-color: rgba(13,19,14,0.54);
+	padding-top: 55px;
+}
+.paragraf{
+	text-indent: 1rem;
+}
+.col-md-12, .col-md-5, .col-md-3, .text-muted{
+	color: #ffffff;
+}
+main hr{
+	border: 2px solid #CACECE;
+}
+.margintop{
+	margin-top: 0;
+}
+.marginbtm{
+	margin-bottom: 0;
+}
+
+.margintop1{
+	margin-top: 10px;
+}
+.marginbtm1{
+	margin-bottom: 10px;
+}
+.col-md-12{
+	font-size: 2rem;
+	text-indent: 2rem;
+}
+.col-md-5{
+	text-indent: 2rem;
+}
+.kategori{
+	text-indent: 5rem;
+}
+
