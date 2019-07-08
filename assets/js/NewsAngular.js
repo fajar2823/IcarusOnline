@@ -2,7 +2,7 @@ var newsApp = angular.module('newsApp',[]);
 newsApp.controller('CardController',['$scope',function ($scope) {
 	$scope.cards = [
 		{
-			link: '/Websitenya/assets/img/News1.jpg',
+			link: 'assets/img/News1.jpg',
 			belt:'#A186BE',
 			TitleBelt: 'NEWS',
 			Title: "Maintance Server",
@@ -10,7 +10,7 @@ newsApp.controller('CardController',['$scope',function ($scope) {
 			Update: "Terakhir di update 5 hari yang lalu",
 		},
 		{
-			link: '/Websitenya/assets/img/News2.jpg',
+			link: 'assets/img/News2.jpg',
 			belt:'#39B54A',
 			TitleBelt: 'EVENT',
 			Title: "Icarus Referral Event",
@@ -18,7 +18,7 @@ newsApp.controller('CardController',['$scope',function ($scope) {
 			Update: "Terakhir di update 10 hari yang lalu",
 		},
 		{
-			link: '/Websitenya/assets/img/News3.jpg',
+			link: 'assets/img/News3.jpg',
 			belt:'#39B54A',
 			TitleBelt: 'EVENT',
 			Title: "Lebaran Package",
@@ -26,7 +26,7 @@ newsApp.controller('CardController',['$scope',function ($scope) {
 			Update: "Terakhir di update 20 hari yang lalu",
 		},
 		{
-			link: '/Websitenya/assets/img/News4.jpg',
+			link: 'assets/img/News4.jpg',
 			belt:'#39B54A',
 			TitleBelt: 'EVENT',
 			Title: "Mana Stone Battle",
