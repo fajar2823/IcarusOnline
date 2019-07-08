@@ -6,7 +6,7 @@ button{
 
 }
 .col-md-4{
-	background-image: url("/Websitenya/assets/img/stats.jpg");
+	background-image: url("img/stats.jpg");
 }
 .progress{
 	margin-bottom: 35px;
@@ -16,7 +16,7 @@ h5{
 	color: white;
 }
 .bgmain{
-	background-image: url(../img/ss1.jpg);
+	background-image: url(img/ss1.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
