@@ -22,7 +22,7 @@
     z-index: 1;
 }
 .bgmain{
-    background-image: url(img/bg_page_news.jpg);
+    background-image: url(../img/bg_page_news.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
