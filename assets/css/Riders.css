@@ -6,7 +6,7 @@ button{
 
 }
 .col-md-4{
-	background-image: url("img/stats.jpg");
+	background-image: url(img/stats.jpg);
 }
 .progress{
 	margin-bottom: 35px;
